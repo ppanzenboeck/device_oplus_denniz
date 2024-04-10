@@ -21,11 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/oplus/denniz/device.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common derp stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_denniz
+PRODUCT_NAME := derp_denniz
 PRODUCT_DEVICE := denniz
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus Nord 2 5G
