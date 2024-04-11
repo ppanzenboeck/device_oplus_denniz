@@ -37,5 +37,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SettingsProviderOverlayDenniz
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oplus/denniz/denniz-vendor.mk)
